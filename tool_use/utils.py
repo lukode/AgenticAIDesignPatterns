@@ -1,0 +1,6 @@
+TOOLS_INVOCATIONS_TAG = "<function_call>"
+TOOLS_INVOCATIONS_TAG_END = "</function_call>"
+TOOLS_DEFINITIONS_TAG = "<functions>"
+TOOLS_DEFINITIONS_TAG_END = "</functions>"
+TOOLS_RESULTS_TAG = "<function_results>"
+TOOLS_RESULTS_TAG_END = "</function_results>"

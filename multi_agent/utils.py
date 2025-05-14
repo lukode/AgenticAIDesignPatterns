@@ -1,0 +1,6 @@
+CONTEXT_TAG = "<context>"
+CONTEXT_TAG_END = "</context>"
+TASK_DESCRIPTION_TAG = "<task_description>"
+TASK_DESCRIPTION_TAG_END = "</task_description>"
+TASK_EXPECTED_OUTPUT_TAG = "<task_expected_output>"
+TASK_EXPECTED_OUTPUT_TAG_END = "</task_expected_output>"
