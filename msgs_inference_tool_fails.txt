@@ -1,0 +1,46 @@
+{
+  "messages": [
+    {
+      "type": "SystemMessage",
+      "content": "You are an AI agent.",
+      "additional_kwargs": {}
+    },
+    {
+      "type": "HumanMessage",
+      "content": "hi can you tell me the temperature in London?",
+      "additional_kwargs": {}
+    },
+    {
+      "type": "AIMessage",
+      "content": "",
+      "additional_kwargs": {
+        "tool_calls": [
+          {
+            "id": "0",
+            "type": "function",
+            "function": {
+              "name": "get_current_temperature_func",
+              "arguments": "{\"location\": \"London\"}"
+            }
+          }
+        ]
+      },
+      "tool_calls": [
+        {
+          "name": "get_current_temperature_func",
+          "args": {
+            "location": "London"
+          },
+          "id": "0",
+          "type": "tool_call"
+        }
+      ]
+    },
+    {
+      "type": "ToolMessage",
+      "content": "20 degrees celsius",
+      "additional_kwargs": {},
+      "tool_call_id": "0"
+    }
+  ]
+}

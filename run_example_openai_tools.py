@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-OPENAI_AGENT_API_KEY = "OPENAI_API_KEY"
+OPENAI_AGENT_API_KEY = "INFERENCE_API_KEY"
 
 AGENT_MODEL = "meta-llama/llama-3.2-3b-instruct/fp-16"  # "meta-llama/llama-3.3-70b-instruct/fp-16"
 AGENT_BASE_URL = "https://api.inference.net/v1"
